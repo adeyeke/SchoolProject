@@ -82,6 +82,7 @@ public partial class MainPage : System.Web.UI.Page
         ddl_countryname.Items.Insert(0, new ListItem("-- Select Country --", "0"));
     }
 
+    //dialog box
     void ShowMessage(string msg)
     {
         ClientScript.RegisterStartupScript(Page.GetType(), "validation", "<script language='javascript'>alert('" + msg + "');</script>");
